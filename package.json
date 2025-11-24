@@ -8,18 +8,6 @@
     "watch": "ng build --watch --configuration development",
     "test": "ng test"
   },
-  "prettier": {
-    "printWidth": 100,
-    "singleQuote": true,
-    "overrides": [
-      {
-        "files": "*.html",
-        "options": {
-          "parser": "angular"
-        }
-      }
-    ]
-  },
   "private": true,
   "packageManager": "npm@11.6.2",
   "dependencies": {
@@ -36,11 +24,15 @@
     "@angular/build": "^21.0.0",
     "@angular/cli": "^21.0.0",
     "@angular/compiler-cli": "^21.0.0",
-    "@tailwindcss/postcss": "^4.1.12",
+    "@tailwindcss/postcss": "^4.1.17",
+    "@typescript-eslint/parser": "^5.62.0",
+    "eslint": "^8.57.1",
     "jsdom": "^27.1.0",
-    "postcss": "^8.5.3",
-    "tailwindcss": "^4.1.12",
-    "typescript": "~5.9.2",
+    "postcss": "^8.5.6",
+    "prettier": "^3.6.2",
+    "prettier-eslint": "^16.4.2",
+    "tailwindcss": "^4.1.17",
+    "typescript": "5.9",
     "vitest": "^4.0.8"
   }
 }
