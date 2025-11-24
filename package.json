@@ -26,6 +26,7 @@
     "@angular/compiler-cli": "^21.0.0",
     "@tailwindcss/postcss": "^4.1.17",
     "@typescript-eslint/parser": "^5.62.0",
+    "angular-cli-ghpages": "^2.0.3",
     "eslint": "^8.57.1",
     "jsdom": "^27.1.0",
     "postcss": "^8.5.6",
